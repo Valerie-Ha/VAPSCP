@@ -8,5 +8,8 @@ body {
 }
 
 .bg {
-    background: url
+    background: url('https://cdn.potatopro.com/sites/default/files/styles/1200_wide/public/field/image/potato-1200.jpg?itok=-2ZxkLLF')
+    no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
 }
