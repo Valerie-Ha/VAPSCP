@@ -21,15 +21,29 @@ body {
     position: relative;
     margin-bottom: 30px;
     width: 360px;
-    max width: 100%;
+    max-width: 100%;
 
 }
 
 
 .progress-container::before {
-    content: 'hello';
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: var(--color1);
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    transform: translateY(-50%);
 }
 
 .progress {
-    background-color: var(--color1);
+    background-color: var(--color2);
+    height: 4px;
+    width: 100%;
+    background-color: var(--color2);
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    transform: translateY(-50%);
 }
