@@ -2,7 +2,7 @@
 
 :root {
     --color1: #3498db;
-    --color2: #383838;
+    --color2: #3838db;
 }
 body {
     background-color: 'color2'
@@ -13,5 +13,21 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    color: white;
 }
 
+.container {
+    text-align: center
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.progress {
+    background-color: var(--color1);
+}
