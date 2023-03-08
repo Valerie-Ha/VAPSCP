@@ -3,7 +3,7 @@
 :root {
     --color1: #0398fc;
     --color2: #fc9803;
-    --background: #fc9803;
+    --background: #0d1542;
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 .progress {
     background-color: var(--color2);
     height: 4px;
-    width: 50%;
+    width: 0%;
     position: absolute;
     top: 50%;
     z-index: -1;
@@ -57,8 +57,39 @@ body {
 }
 
 .circle {
-    background-color: grey;
+    background-color: var(--background);
     height: 30px;
     width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--color1);
 
+
+}
+
+.circle.active {
+    border-color: var(--color2);
+}
+
+.btn {
+    background-color: var(--color2);
+    color: white;
+    padding: 8px 30px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+}
+
+.btn:active {
+    transform: scale(.98);
+}
+
+.btn:disabled {
+    background-color: #b56321;
+    cursor: not-allowed;
 }
