@@ -5,6 +5,7 @@ const circles = document.querySelectorAll('.circle')
 
 let currentActive = 1
 
+console.log(progress)
 console.log(currentActive)
 console.log(next)
 console.log(prev)
@@ -35,13 +36,14 @@ prev.addEventListener('click', () => {
 function update() {
     progress.style.width  = (currentActive - 1)/3 * 100 + '%'
 
-    if (currentActive == 1) {
+    if(currentActive == 1) {
         prev.disabled = true
     }
-    else if (currentActive == 4){
+    else if(currentActive == 4){
         next.disabled = true
     }
-    else {
+    else
+    {
         prev.disabled = false
         next.disabled = true
     }
