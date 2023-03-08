@@ -45,7 +45,15 @@ function update() {
     else
     {
         prev.disabled = false
-        next.disabled = true
+        next.disabled = false
     }
 
+    circles.forEach((circle, index) => {
+        if(index < currentActive){
+            circle.classList.add('active')
+        }
+        else {
+            circle.classList.remove('active')
+        }
+    })
 }
