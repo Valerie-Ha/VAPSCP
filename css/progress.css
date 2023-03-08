@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 
 :root {
-    --color1: #1e2563;
-    --color2: #5e0c5c;
-    --background: #1f1f1f;
+    --color1: #0398fc;
+    --color2: #fc9803;
+    --background: #fc9803;
 }
 
 body {
     font-family: 'Prompt', sans-serif;
-    background-color: black;
+    background-color: var(--background);
     margin: 0;
     display: flex;
     height: 100vh;
@@ -54,4 +54,11 @@ body {
     z-index: -1;
     left: 0;
     transform: translateY(-50%);
+}
+
+.circle {
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+
 }
