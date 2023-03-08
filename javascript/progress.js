@@ -27,5 +27,17 @@ prev.addEventListener('click', () => {
 })
 
 function update() {
-    progress.style.width  = (currentActive - 1 / 3) + '%'
+    progress.style.width  = (currentActive - 1)/3 * 100 + '%'
+
+    if (currentActive == 1) {
+        prev.disabled = true
+    }
+    else if (currentActive == 4){
+        next.disabled = true
+    }
+    else {
+        prev.disabled = false
+        next.disabled = true
+    }
+
 }

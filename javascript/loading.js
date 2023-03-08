@@ -12,6 +12,16 @@ function loading() {
     if(i == 100) {
         clearInterval(not_var)
     }
+
+    circles.forEach((circle, index) => {
+        if (index < currentActive) {
+            circle.classList.add('active')
+        }
+        else {
+            circle.classList.remove('active')
+        }
+
+    })
 }
 
 
