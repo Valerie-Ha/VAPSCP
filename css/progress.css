@@ -3,6 +3,7 @@
 :root {
     --color1: #1e2563;
     --color2: #5e0c5c;
+    --background #1f1f1f;
 }
 
 body {
@@ -47,7 +48,7 @@ body {
 .progress {
     background-color: var(--color2);
     height: 4px;
-    width: 100%;
+    width: 50%;
     position: absolute;
     top: 50%;
     z-index: -1;
