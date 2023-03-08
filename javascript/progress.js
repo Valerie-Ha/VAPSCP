@@ -1,10 +1,14 @@
 const progress = document.getElementById('progress')
 const prev = document.getElementById('prev')
 const next = document.getElementById('next')
-const circles = documenr.querySelectorAll('.circle')
+const circles = document.querySelectorAll('.circle')
 
 let currentActive = 1
 
+console.log(currentActive)
+console.log(next)
+console.log(prev)
+console.log(circles)
 
 
 
@@ -19,7 +23,7 @@ next.addEventListener('click', () => {
 })
 
 prev.addEventListener('click', () => {
-    curentActive--
+    currentActive--
 
     if (currentActive < 1) {
         currentActive = 1
