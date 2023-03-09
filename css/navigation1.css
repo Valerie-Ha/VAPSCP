@@ -9,3 +9,12 @@ body {
     background-color: var(--background);
 
 }
+
+.content {
+    background-color: var(--maincolor);
+    display: flex;
+    width: 50vw; 
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
