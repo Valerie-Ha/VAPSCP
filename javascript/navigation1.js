@@ -2,6 +2,7 @@ const open = document.getElementById('open')
 const close = document.getElementById('close')
 
 open.addEventListener('click', => {
-
     
+
+
 })
