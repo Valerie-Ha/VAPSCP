@@ -81,7 +81,7 @@ button.btn#open {
     transform: translateX(-59px);
 }
 
-#open.active {
+{
     z-index: -1;
     display: hidden;
 }
