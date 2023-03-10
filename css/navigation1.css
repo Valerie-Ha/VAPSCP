@@ -83,4 +83,5 @@ button.btn#open {
 
 #open.active {
     z-index: -1;
+    display: hidden;
 }
