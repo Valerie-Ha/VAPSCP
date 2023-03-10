@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@700&display=swap');
 
 :root {
     --background: #f5e8df;
@@ -7,14 +8,75 @@
 }
 body {
     background-color: var(--background);
+    margin: 0;
 
 }
 
+
 .content {
-    background-color: var(--maincolor);
     display: flex;
-    width: 50vw; 
-    height: 50vh;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(30px);
+    margin-left: 40;
+
+
+}
+
+.img {
+    background-image:url('https://www.publicdomainpictures.net/pictures/30000/nahled/funny-corn-face.jpg');
+    flex: 1;
+    height: 70vh;
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    margin-left: 40px;
+
+}
+
+.text {
+    text-indent: 50px;
+    flex: 2.5;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-size: cover;
+    margin: 20px;
+    margin-right: 30px;
+
+
+}
+
+.title_stuff {
+    margin-left: 40px;
+    font-family: 'Noto Serif Lao', serif;
+}
+
+.title_stuff small {
+    position: absolute;
+    margin-bottom: 1000px;
+    transform: translateY(-20px);
+    z-index: 1;
+}
+
+button.btn {
+    background-color: var(--background);
+    position: relative;
+    border: 0;
+    transform: scale(1.5);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+button.btn#open {
+    z-index: 1;
+}
+
+#close {
+    z-index: -1;
+    transform: translateX(-59px);
 }
