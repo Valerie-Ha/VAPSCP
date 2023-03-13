@@ -27,12 +27,13 @@ body {
 
 .content {
     display: flex;
-    width: 100vw;
+    max-width: 1000px;
+    margin: 50px auto;
     height: 100vh;
     z-index: 2;
     position: relative;
-    transform: translateY(93px);
-    margin-right: 40px;
+
+
 
 
 }
@@ -126,4 +127,10 @@ body {
     top: 60%;
     transform: rotate(90deg);
     transform-origin: top left;
+}
+
+nav {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
 }
