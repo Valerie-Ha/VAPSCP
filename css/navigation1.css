@@ -32,6 +32,7 @@ body {
     z-index: 2;
     position: relative;
     transform: translateY(93px);
+    margin-right: 40px;
 
 
 }
@@ -44,7 +45,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-left: 40px;
     z-index: -2;
 
 }
@@ -99,7 +99,7 @@ body {
 }
 
 .container.show-nav .circle {
-    transform: rotate(-70deg);
+    transform: rotate(-80deg);
 }
 
 .circle button {
