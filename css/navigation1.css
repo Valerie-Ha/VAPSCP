@@ -96,7 +96,7 @@ body {
 }
 
 .container.show-nav .circle {
-    transform: rotate(-70deg)
+    transform: rotate(-70deg);
 }
 
 .circle button {
@@ -109,12 +109,18 @@ body {
     background: transparent;
     border: 0;
     font-size: 26px;
-    transform: translateX(30px);
-    color: var(--accent)
+    transform: translateX(5px);
+    color: var(--accent);
 
 }
 
 .circle button#open {
-    left; 60%;
+    left: 60%;
 
+}
+
+.circle button#close {
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left;
 }
