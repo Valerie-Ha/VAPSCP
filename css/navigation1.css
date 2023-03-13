@@ -2,7 +2,7 @@
 
 :root {
     --background: #f2aa6b;
-    --maincolor: #3461a3;
+    --maincolor: #062763;
     --accent: #3bc9f5
 
 }
@@ -100,7 +100,7 @@ body {
 }
 
 .container.show-nav .circle {
-    transform: rotate(-80deg);
+    transform: rotate(-85deg);
 }
 
 .circle button {
@@ -133,4 +133,27 @@ nav {
     position: fixed;
     bottom: 40px;
     left: 0;
+    z-index: -1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    color: var(--maincolor);
+    margin: 40px 0;
+
+}
+
+nav ul li i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: var(--maincolor);
+    text-decoration: none;
 }
