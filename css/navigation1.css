@@ -9,7 +9,8 @@
 body {
     margin: 0;
     overflow-x: hidden;
-    background-color: var(--background)
+    background-color: var(--accent);
+
 
 }
 
@@ -18,8 +19,8 @@ body {
     min-height: 100vh;
     padding:50px;
     transition: transform .5s linear;
-    margin-left: 40px;
     transform-origin: top left;
+    background-color: var(--background);
 
 }
 
@@ -28,10 +29,9 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    margin-left: 40px;
     z-index: 2;
     position: relative;
-    transform: translateY(100px);
+    transform: translateY(93px);
 
 
 }
@@ -87,7 +87,7 @@ body {
     background-color: var(--maincolor);
     border-radius: 50%;
     z-index: 2;
-    position: fixed;
+    position: relative;
     transition: transform .5s linear;
 }
 
