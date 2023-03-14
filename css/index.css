@@ -67,6 +67,7 @@ body {
     text-align: center;
     background-color: black;
     margin: 5px;
+    width: 70px;
     transform: translateX(-0%);
 }
 
