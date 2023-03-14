@@ -62,3 +62,24 @@ body {
         display: none;
     }
 }
+
+
+.home {
+    color: black;
+    background-color: transparent;
+    position: absolute;
+    border: 0;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    top: 20px;
+    cursor: pointer;
+    transform: transition: 0.3s ease;
+
+  }
+
+  .home:active {
+    transform: scale(.98);
+    color: #dedede;
+  }

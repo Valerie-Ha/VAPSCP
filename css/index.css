@@ -10,8 +10,9 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: var(--background);
-    max-width: 100vw;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
 
 }
 
@@ -20,7 +21,7 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin: 50px;
 
 
 }
@@ -28,10 +29,13 @@ body {
 .title-stuff {
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
     color: var(--maincolor);
     max-width: 100vw;
     height: auto;
+    margin: 50px;
 }
 
 .title {
@@ -39,40 +43,24 @@ body {
     font-size: 55px;
     display: flex;
     position: relative;
-
-}
-
-.subtitle small {
-    font-family: 'Sono', sans-serif;
-    position: relative;
-    display: flex;
-    transform: translateY(80px);
-    font-size: 20px;
-
-}
-
-.links {
-    position: relative;
-    transform: translateY(300px);
-    font-family: 'Sono', sans-serif;
-    display: flex;
-    max-width: 100vw;
-    z-index: 2;
-
-}
-
-.link {
-    flex: 1;
-    cursor: pointer;
-    position: relative;
-    transform: translateX(30px);
-    font-size: 15px;
+    margin-top: 60px;
     text-align: center;
-    margin-right: 45px;
-    margin-left: 10px;
-    max-width: 190px;
-    transform: translateX(-0%);
+
 }
+
+.subtitle {
+    font-family: 'Sono', sans-serif;
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+
+
 
 .polaroids {
     position: relative;
@@ -85,6 +73,12 @@ body {
 
 .pic {
     flex: 1;
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+}
+
+.pic h3 {
+    transform: translateY(-90px);
 }
 
 .polaroids2 {
@@ -93,3 +87,4 @@ body {
     display: flex;
     max-width: 100vw;
 }
+

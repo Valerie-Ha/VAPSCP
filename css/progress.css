@@ -95,3 +95,25 @@ body {
     background-color: #b56321;
     cursor: not-allowed;
 }
+
+.home {
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    top: 20px;
+    left: 10px;
+    z-index: 4;
+    transform: transition: 0.3s ease;
+
+  }
+
+  .home:active {
+    transform: scale(.98);
+    color: #dedede;
+  }
