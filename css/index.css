@@ -64,7 +64,9 @@ body {
     position: relative;
     transform: translateX(30px);
     font-size: 14px;
-    align-text: center;
+    text-align: center;
+    background-color: black;
+    transform: translateX(-10%);
 }
 
 .polaroids {
