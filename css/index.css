@@ -1,3 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Limelight&family=Sono&display=swap');
+
+:root {
+    --background: #ffe6ef;
+    --maincolor: #001780;
+    --accent: #3bc9f5;
+
+}
 body {
-    background-color: #082252;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: var(--background);
+
+}
+
+.content {
+    max-width: 100vw;
+    min-height: 100vh;
+    padding:50px;
+    margin: 50px auto;
+
+
+}
+
+.title-stuff {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: var(--maincolor);
+}
+
+.title {
+    font-family: 'Limelight', cursive;
+    font-size: 60px;
+    display: flex;
+    position: absolute;
+
+}
+
+.subtitle small {
+    font-family: 'Sono', sans-serif;
+    position: relative;
+    display: flex;
+    transform: translateY(80px);
+    font-size: 20px;
+
+}
+
+.links {
+    position: relative;
+    transform: translateY(300px);
+    font-family: 'Sono', sans-serif;
+    display: flex;
+    width: 100vw;
+    z-index: 2;
+
+}
+
+.link {
+    flex: 1;
+    cursor: pointer;
+    position: relative;
+    transform: translateX(30px);
+    font-size: 14px;
+}
+
+.polaroids {
+    position: relative;
+    transform: translateY(90px);
+    display: flex;
+    width: 100vw;
+
+}
+
+.pic {
+    flex: 1;
+}
+
+.polaroids2 {
+    position: relative;
+    transform: translateY(150px);
+    display: flex;
+    width: 100vw;
 }
