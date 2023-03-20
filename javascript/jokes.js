@@ -1,7 +1,7 @@
 const jokeEL = document.getElementById('joke')
-const jokeBTN = document.getElementById('JokeBTN')
+const JokeBTN = document.getElementById('JokeBTN')
 
-jokeBtn.addEventListener('click', generateJoke)
+JokeBTN.addEventListener('click', generateJoke)
 
 async function generateJoke(){
     const res = await fetch('https://icanhazdadjoke.com', {
