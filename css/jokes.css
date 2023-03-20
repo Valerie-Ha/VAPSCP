@@ -5,19 +5,17 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: #f7b272;
+    background-color: #f5f2f0;
     display: flex;
 }
 
 .container {
-    display: flex;
-    position: relative;
     justify-content: center;
     margin: 20px;
     align-items: center;
     width: 800px;
-    height: 90vh;
-    background-color: #f5f2f0;
+    padding: 50px 20px;
+    background-color: #f7b272;
     border-radius: 10px;
     text-align: center;
 }
