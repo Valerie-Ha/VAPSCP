@@ -1,6 +1,7 @@
 const jokeEL = document.getElementById('joke')
 const JokeBTN = document.getElementById('JokeBTN')
 
+(generateJoke)
 JokeBTN.addEventListener('click', generateJoke)
 
 async function generateJoke(){
