@@ -5,18 +5,42 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: #f5f2f0;
+    background-color: #f7b272;
+    display: flex;
 }
 
 .container {
     display: flex;
     position: relative;
     justify-content: center;
-    margin: 60px;
+    margin: 20px;
     align-items: center;
-    width: 80vw;
-    height: 80vh;
-    background-color: #f7b272;
+    width: 800px;
+    height: 90vh;
+    background-color: #f5f2f0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3 {
+    opacity: .8;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.joke {
+    margin: 50px auto;
+    font-size: 30px;
+    max-width: 600px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.btn {
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-size: 16px;
 }
 
 .home {
@@ -27,7 +51,7 @@ body {
     border: 0;
     height: 50px;
     width: 50px;
-    font-size: 24px;
+    font-size: 19px;
     cursor: pointer;
     top: 20px;
     left: 10px;
