@@ -14,7 +14,7 @@ body {
     align-items: center;
     width: 800px;
     padding: 50px 20px;
-    background-color: #f7b272;
+    background-color: #243680;
     border-radius: 10px;
     text-align: center;
     min-height: 400px;
@@ -25,6 +25,7 @@ h3 {
     margin-top: 30px;
     letter-spacing: 2px;
     font-size: 25px;
+    color: #f5f2f0;
 }
 
 .joke {
@@ -33,6 +34,7 @@ h3 {
     max-width: 600px;
     line-height: 40px;
     letter-spacing: 1px;
+    color: #f5f2f0;
 }
 
 .btn {
@@ -41,6 +43,7 @@ h3 {
     border-radius: 10px;
     padding: 14px 40px;
     font-size: 20px;
+    background-color: #f7b272
 }
 
 .home {
@@ -64,3 +67,8 @@ h3 {
     transform: scale(.98);
     color: #dedede;
   }
+
+  .btn:active {
+    transform: scale(.98);
+    background-color: #ba8352;
+}
