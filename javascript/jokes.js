@@ -3,7 +3,7 @@ const JokeBTN = document.getElementById('JokeBTN')
 
 
 JokeBTN.addEventListener('click', generateJoke)
-(generateJoke)
+generateJoke()
 
 async function generateJoke(){
     const res = await fetch('https://icanhazdadjoke.com', {

@@ -17,17 +17,19 @@ body {
     background-color: #f7b272;
     border-radius: 10px;
     text-align: center;
+    min-height: 400px;
 }
 
 h3 {
-    opacity: .8;
-    margin: 0;
-    letter-spacing: 1px;
+    opacity: .5;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-size: 25px;
 }
 
 .joke {
     margin: 50px auto;
-    font-size: 30px;
+    font-size: 40px;
     max-width: 600px;
     line-height: 40px;
     letter-spacing: 1px;
@@ -35,9 +37,10 @@ h3 {
 
 .btn {
     border: 0;
+    margin-top: 30px;
     border-radius: 10px;
     padding: 14px 40px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .home {
