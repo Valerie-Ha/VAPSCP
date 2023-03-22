@@ -19,7 +19,7 @@ body {
     margin: 10px 20px;
     border-radius: 6px;
     padding: 10px 25px;
-    box-shadow: 5px 10px #00d1ed;
+    box-shadow: 8px 3px 4px 0px #0862ff, 6px 7px 0px 3px #00d1ed, 6px 6px 0px 6px #eddd00 ;
     border: 2px solid #eddd00;
     text-align: center;
     background-color: #e3197b;
@@ -28,7 +28,21 @@ body {
 
 }
 
+.btn:active {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    font-size: 30px;
+    margin: 10px 20px;
+    border-radius: 6px;
+    padding: 10px 25px;
+    box-shadow: 6px 2px 3px 0px #0862ff, 4px 6px 0px 2px #0862ff, 4px 5px 0px 5px #dbc30b ;
+    border: 2px solid #dbc30b;
+    text-align: center;
+    background-color: #e8107c;
+    color: grey;
+    cursor: pointer;
 
+}
 
 
 .home {
