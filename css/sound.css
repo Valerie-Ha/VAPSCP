@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+
+
 body {
     margin: 0;
     overflow: hidden;
@@ -5,16 +9,18 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: row;
     background-color: #f04397;
 }
 
 .btn {
-    display: flex;
-    flex-direction: row;
+    font-family: 'Prompt', sans-serif;
     position: relative;
     font-size: 26px;
-    margin: 10px;
-    
+    margin: 10px 20px;
+    border-radius: 6px;
+    padding: 10px;
+    border: 0;
 
 }
 
