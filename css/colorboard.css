@@ -8,3 +8,14 @@ body {
     margin: 0;
 
 }
+
+.container {
+
+}
+
+.square {
+    height: 16px;
+    width: 16px;
+    background-color: #1d1d1d;
+    margin: 2px;
+}
