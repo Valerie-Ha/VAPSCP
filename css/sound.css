@@ -5,5 +5,38 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: #f04397;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-size: 26px;
+    margin: 10px;
+    
 
 }
+
+
+
+
+.home {
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    border: 0;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    top: 20px;
+    cursor: pointer;
+    transform: transition: 0.3s ease;
+
+  }
+
+  .home:active {
+    transform: scale(.98);
+    color: grey;
+  }
