@@ -35,11 +35,11 @@ body {
     margin: 10px 20px;
     border-radius: 6px;
     padding: 10px 25px;
-    box-shadow: 7px 2px 3px 0px #0862ff, 5px 6px 0px 2px #0862ff, 6px 5px 0px 5px #dbc30b ;
+    box-shadow: 8px 3px 4px 0px #0862ff, 6px 7px 0px 3px #0862ff, 6px 6px 0px 6px #dbc30b ;
     border: 2px solid #dbc30b;
     text-align: center;
-    background-color: #e8107c;
-    color: #b8b0b4;
+    background-color: #e0147a;
+    color: #dbd7d9;
     scale: .98;
 
 }
