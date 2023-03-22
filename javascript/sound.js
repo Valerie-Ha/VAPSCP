@@ -13,6 +13,8 @@ sounds.forEach(sound => {
 
 function stopSongs() {
     sounds.forEach(sound => {
-        const song = document.getElement
+        const song = document.getElementId(sound)
+        song.pause()
+        song.currentTime = 0
     })
 }
