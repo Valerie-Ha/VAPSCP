@@ -40,7 +40,7 @@ body {
     text-align: center;
     background-color: #e8107c;
     color: grey;
-    cursor: pointer;
+    scale: .98;
 
 }
 
