@@ -15,11 +15,15 @@ body {
 .btn {
     font-family: 'Oswald', sans-serif;
     position: relative;
-    font-size: 26px;
+    font-size: 30px;
     margin: 10px 20px;
     border-radius: 6px;
-    padding: 2px 20px;
-    border: 0;
+    padding: 10px 25px;
+    box-shadow: 5px 10px #00d1ed;
+    border: 2px solid ;
+    text-align: center;
+    background-color: #e3197b;
+    color: white;
 
 }
 
