@@ -6,7 +6,7 @@ for(let i = 0; i < SQUARES; i++) {
     const square = document.createElement('div')
     square.classList.add('square')
     container.appendChild(square)
-    square.addEventListener('mouseover', () => setcolor(square))
+    square.addEventListener('mouseover', () => setColor(square))
     square.addEventListener('mouseout', () => removeColor(square))
 }
 
