@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lato&family=Rubik&display=swap');
+
+
+body {
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: #0d37b5;
+    flex-direction: column;
+    height: 100vh;
+}
+
+div {
+    font-family: 'Inconsolata', monospace;
+    position: absolute;
+    bottom: 40px;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+input {
+    font-family: 'Inconsolata', monospace;
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+#text {
+    color: white;
+}
+.home {
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    top: 20px;
+    left: 10px;
+    z-index: 4;
+    transform: transition: 0.3s ease;
+
+  }
+
+  .home:active {
+    transform: scale(.98);
+    color: #dedede;
+  }
